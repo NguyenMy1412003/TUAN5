@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class BT6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       int a,i;
+       Scanner sc= new Scanner(System.in);
+       System.out.println("Moi nhap so:");
+       do {
+    	   a = sc.nextInt();
+    	   System.out.println("Moi nhap lai so:");
+       }
+       while(a>0);
+       a = sc.nextInt();
+       int gt=1;
+       for(i=1; i<a; i++); 
+           gt*=i;
+       System.out.println("Luy thua cua so la:" + gt);
+       
+	}
+
+}
